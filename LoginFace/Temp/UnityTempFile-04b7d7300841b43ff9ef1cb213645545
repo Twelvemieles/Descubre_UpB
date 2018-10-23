@@ -1,0 +1,325 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:'Temp/Assembly-CSharp.dll'
+-nostdlib
+-r:'Library/ScriptAssemblies/UnityEditor.StandardEvents.dll'
+-r:'Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll'
+-r:'Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll'
+-r:'Library/ScriptAssemblies/Unity.TextMeshPro.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.BaselibModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.FacebookModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.HotReloadModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.LocalizationModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ProfilerModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StreamingModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubstanceModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TLSModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TimelineModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UNETModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UmbraModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Managed/Unity.Locator.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll'
+-r:'Assets/FacebookSDK/Plugins/Facebook.Unity.dll'
+-r:'Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll'
+-r:'Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll'
+-r:'Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll'
+-r:'Assets/PaperAir/Assets/Plugins/Photon3Unity3D.dll'
+-r:'Assets/PaperAir/Assets/Plugins/WebSocket/websocket-sharp.dll'
+-r:'/Users/juandiegomieles/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll'
+-r:'/Users/juandiegomieles/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/mscorlib.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Core.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Xml.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Xml.Linq.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/UnityScript.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/UnityScript.Lang.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll'
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_2_9
+-define:UNITY_2018_2
+-define:UNITY_2018
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:INCLUDE_PUBNUB
+-define:ENABLE_VIDEO
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_ANDROID
+-define:UNITY_ANDROID
+-define:UNITY_ANDROID_API
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_EGL
+-define:ENABLE_NETWORK
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+-define:PLATFORM_SUPPORTS_ADS_ID
+-define:UNITY_CAN_SHOW_SPLASH_SCREEN
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_SPATIALTRACKING
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_OSX
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+-define:CROSS_PLATFORM_INPUT
+-define:MOBILE_INPUT
+-define:UNITY_HAS_GOOGLEVR
+-define:UNITY_HAS_TANGO
+'Assets/FacebookSDK/Examples/Scripts/ConsoleBase.cs'
+'Assets/FacebookSDK/Examples/Scripts/LogView.cs'
+'Assets/FacebookSDK/Examples/Scripts/MenuBase.cs'
+'Assets/FacebookSDK/Examples/Scripts/SubMenus/AccessTokenMenu.cs'
+'Assets/FacebookSDK/Examples/Scripts/SubMenus/AppEvents.cs'
+'Assets/FacebookSDK/Examples/Scripts/SubMenus/AppInvites.cs'
+'Assets/FacebookSDK/Examples/Scripts/SubMenus/AppLinks.cs'
+'Assets/FacebookSDK/Examples/Scripts/SubMenus/AppRequests.cs'
+'Assets/FacebookSDK/Examples/Scripts/SubMenus/DialogShare.cs'
+'Assets/FacebookSDK/Examples/Scripts/SubMenus/GraphRequest.cs'
+'Assets/FacebookSDK/Examples/Scripts/SubMenus/MainMenu.cs'
+'Assets/FacebookSDK/Examples/Scripts/SubMenus/Pay.cs'
+'Assets/Hockey/Scripts/Ball.cs'
+'Assets/Hockey/Scripts/CameraFocusControllerHockey.cs'
+'Assets/Hockey/Scripts/ChangePlayer.cs'
+'Assets/Hockey/Scripts/DeathTriggers.cs'
+'Assets/Hockey/Scripts/detected.cs'
+'Assets/Hockey/Scripts/GuiScores.cs'
+'Assets/Hockey/Scripts/PlayerAi.cs'
+'Assets/Hockey/Scripts/PlayerButtons.cs'
+'Assets/Hockey/Scripts/PlayerDrag.cs'
+'Assets/InterfazTaller/ControlPistas.cs'
+'Assets/InterfazTaller/menusJuegos/CambiosTuto.cs'
+'Assets/InterfazTaller/menusJuegos/CheckScene.cs'
+'Assets/Master.cs'
+'Assets/PaperAir/Assets/deleteCamera.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/CustomTypes.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Enums.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Extensions.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/FriendInfo.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/GizmoType.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/LoadbalancingPeer.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonClasses.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonHandler.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonLagSimulationGui.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonNetwork.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonPlayer.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonStatsGui.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonStreamQueue.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonView.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PingCloudRegions.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Room.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/RoomInfo.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/RPC.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/ServerSettings.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/SocketUdp.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/SocketWebTcp.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonAnimatorView.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonRigidbody2DView.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonRigidbodyView.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformView.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewPositionControl.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewPositionModel.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewRotationControl.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewRotationModel.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewScaleControl.cs'
+'Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewScaleModel.cs'
+'Assets/PaperAir/Assets/PhotonChatApi/ChatChannel.cs'
+'Assets/PaperAir/Assets/PhotonChatApi/ChatClient.cs'
+'Assets/PaperAir/Assets/PhotonChatApi/ChatDisconnectCause.cs'
+'Assets/PaperAir/Assets/PhotonChatApi/ChatEventCode.cs'
+'Assets/PaperAir/Assets/PhotonChatApi/ChatOperationCode.cs'
+'Assets/PaperAir/Assets/PhotonChatApi/ChatParameterCode.cs'
+'Assets/PaperAir/Assets/PhotonChatApi/ChatPeer.cs'
+'Assets/PaperAir/Assets/PhotonChatApi/ChatState.cs'
+'Assets/PaperAir/Assets/PhotonChatApi/ChatUserStatus.cs'
+'Assets/PaperAir/Assets/PhotonChatApi/IChatClientListener.cs'
+'Assets/PaperAir/Assets/Plugins/WebSocket/WebSocket.cs'
+'Assets/PaperAir/Assets/scripts/BallPaper.cs'
+'Assets/PaperAir/Assets/scripts/boton.cs'
+'Assets/PaperAir/Assets/scripts/CullArea.cs'
+'Assets/PaperAir/Assets/scripts/ManagerColores.cs'
+'Assets/PaperAir/Assets/scripts/ManagerPhoton.cs'
+'Assets/PaperAir/Assets/scripts/ManangerAir.cs'
+'Assets/PaperAir/Assets/scripts/PlayerNetwork.cs'
+'Assets/PaperAir/Assets/scripts/TestPhoton.cs'
+'Assets/PaperAir/Assets/scripts/timeNet.cs'
+'Assets/PaperAir/Assets/scripts/Wind.cs'
+'Assets/PaperAir/Assets/Vuforia/Scripts/DefaultInitializationErrorHandler.cs'
+'Assets/PaperAir/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs'
+'Assets/screenRot.cs'
+'Assets/Scrips/cambioScena.cs'
+'Assets/Scrips/FacebookScrip.cs'
+'Assets/Scrips/rotObjMapa.cs'
+'Assets/Script/PlayAnimOnKeyUp.cs'
+'Assets/scripts/Bala.cs'
+'Assets/scripts/detected.cs'
+'Assets/scripts/DianaMove.cs'
+'Assets/scripts/DianaSon.cs'
+'Assets/scripts/DisparoCam.cs'
+'Assets/scripts/Mananger.cs'
+'Assets/scripts/MielesDetected.cs'
+'Assets/scripts/particleDie.cs'
+'Assets/Survival/Juego/Script/BulletController.cs'
+'Assets/Survival/Juego/Script/Bullets.cs'
+'Assets/Survival/Juego/Script/CameraFocusController.cs'
+'Assets/Survival/Juego/Script/CapsuleController.cs'
+'Assets/Survival/Juego/Script/detectedSurvival.cs'
+'Assets/Survival/Juego/Script/FollowPlayer.cs'
+'Assets/Survival/Juego/Script/FollowPlayerDos.cs'
+'Assets/Survival/Juego/Script/GameManagerSurvival.cs'
+'Assets/Survival/Juego/Script/TimedSpawn.cs'
+'Assets/Survival/Particlecollection_Free samples/Plugins/Effect/Script/CameraTarget.cs'
+'Assets/Survival/Particlecollection_Free samples/Plugins/Effect/Script/EffectController.cs'
+'Assets/Survival/Particlecollection_Free samples/Plugins/Effect/Script/EffectDemo.cs'
+'Assets/Survival/Particlecollection_Free samples/Plugins/Effect/Script/EffectShaderPropertyStr.cs'
+'Assets/Survival/Particlecollection_Free samples/Plugins/Effect/Script/RenderEffect.cs'
+'Assets/Survival/Particlecollection_Free samples/Plugins/Effect/Script/TransformExtension.cs'
+'Assets/Survival/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs'
+'Assets/Survival/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs'
+'Assets/Survival/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs'
+'Assets/Survival/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs'
+'Assets/Survival/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs'
+'Assets/Survival/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs'
+'Assets/Survival/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs'
+'Assets/Survival/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs'
+'Assets/Survival/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs'
+'Assets/Survival/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs'
+'Assets/Survival/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs'
+'Assets/Topos 1/Juego/Prefabs/WR_wHiteRabbiT-sTudio/WRFramework/Unity/Extensions/VectorExtensions.cs'
+'Assets/Topos 1/Juego/Prefabs/WR_wHiteRabbiT-sTudio/WRFramework/Unity/UI/GUIHelper.cs'
+'Assets/Topos 1/Juego/Prefabs/WR_wHiteRabbiT-sTudio/WRFramework/Unity/Util/Logo.cs'
+'Assets/Topos 1/Juego/Script/detectedTopos.cs'
+'Assets/Topos 1/Juego/Script/GameManagerTopos.cs'
+'Assets/Topos 1/Juego/Script/Topos.cs'
+'Assets/Topos 1/Juego/Script/Touch.cs'
+'Assets/Topos 1/Script/CameraFocusControllerTopos.cs'
+'Assets/Topos 1/Script/rotObj.cs'
+'Assets/tutos.cs'
+-lib:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity'

@@ -284,16 +284,16 @@
     <None Include="Assets\Survival\surface.shader" />
     <None Include="Assets\PaperAir\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/juandiegomieles/Documents/UnityProyects/LoginFace/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/juandiegomieles/Documents/UnityProyects/DescubreUpB/LoginFace/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/juandiegomieles/Documents/UnityProyects/LoginFace/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/juandiegomieles/Documents/UnityProyects/DescubreUpB/LoginFace/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/juandiegomieles/Documents/UnityProyects/LoginFace/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/juandiegomieles/Documents/UnityProyects/DescubreUpB/LoginFace/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/juandiegomieles/Documents/UnityProyects/LoginFace/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/juandiegomieles/Documents/UnityProyects/DescubreUpB/LoginFace/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -494,22 +494,22 @@
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity">
-      <HintPath>/Users/juandiegomieles/Documents/UnityProyects/LoginFace/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+      <HintPath>/Users/juandiegomieles/Documents/UnityProyects/DescubreUpB/LoginFace/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity.Settings">
-      <HintPath>/Users/juandiegomieles/Documents/UnityProyects/LoginFace/Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
+      <HintPath>/Users/juandiegomieles/Documents/UnityProyects/DescubreUpB/LoginFace/Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity.Gameroom">
-      <HintPath>/Users/juandiegomieles/Documents/UnityProyects/LoginFace/Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
+      <HintPath>/Users/juandiegomieles/Documents/UnityProyects/DescubreUpB/LoginFace/Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
     </Reference>
     <Reference Include="FacebookNamedPipeClient">
-      <HintPath>/Users/juandiegomieles/Documents/UnityProyects/LoginFace/Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
+      <HintPath>/Users/juandiegomieles/Documents/UnityProyects/DescubreUpB/LoginFace/Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
     </Reference>
     <Reference Include="Photon3Unity3D">
-      <HintPath>/Users/juandiegomieles/Documents/UnityProyects/LoginFace/Assets/PaperAir/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+      <HintPath>/Users/juandiegomieles/Documents/UnityProyects/DescubreUpB/LoginFace/Assets/PaperAir/Assets/Plugins/Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-      <HintPath>/Users/juandiegomieles/Documents/UnityProyects/LoginFace/Assets/PaperAir/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
+      <HintPath>/Users/juandiegomieles/Documents/UnityProyects/DescubreUpB/LoginFace/Assets/PaperAir/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>/Users/juandiegomieles/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
