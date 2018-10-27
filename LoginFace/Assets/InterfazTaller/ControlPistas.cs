@@ -7,14 +7,16 @@ public class ControlPistas : MonoBehaviour {
 
     public Text pista;
     private string[] pistat = new string[20];
-
     public int npista;
 
 
+    
 
     // Use this for initialization
     void Start() {
-        npista = PlayerPrefs.GetInt("pista");
+
+        //DontDestroyOnLoad(this.gameObject);
+        
         pistat[0] = "La próxima pieza del mapa se encuentra donde te ofrecen atención médica.";
         pistat[1] = "La tienda de libros de la universidad.";
         pistat[2] = "De este edificio salen algunos de los mejores abogados del país.";
@@ -35,7 +37,16 @@ public class ControlPistas : MonoBehaviour {
         pistat[17] = "Bloque de comunicacion social.";
         pistat[18] = "Donde encontraras al padre rector.";
         pistat[19] = "Entrada 70.";
-        PistaActualizar();
+
+        if(PlayerPrefs.GetInt("started") == 99)
+        {
+            PistaActualizar();
+        }
+        else
+        {
+            InicioPista();
+        }
+        
 
     }
 	
@@ -43,10 +54,18 @@ public class ControlPistas : MonoBehaviour {
 	void Update () {
 		
 	}
-    private void OnDestroy()
+    private void CheckExist()
+    {
+        if (GameObject.Find("ControlPista") != null)
+        {
+            Destroy(gameObject);
+
+        }
+    }
+    /*private void OnDestroy()
     {
         PlayerPrefs.SetInt("pista", npista);
-    }
+    }*/
 
     public void InicioPista()
     {
@@ -63,13 +82,21 @@ public class ControlPistas : MonoBehaviour {
         {
             npista = 13;
         }
+        PlayerPrefs.SetInt("pista", npista);
         PistaActualizar();
+        PlayerPrefs.SetInt("started", 99);
     }
 
     public void PistaActualizar()
     {
-
+        PlayerPrefs.GetInt("pista", npista);
+        if (npista > 19)
+        {
+            npista = 0;
+        }
+        PlayerPrefs.SetInt("pista", npista);
         pista.text = pistat[npista];
+        
     }
     public void PistaCompleta()
     {
@@ -81,6 +108,7 @@ public class ControlPistas : MonoBehaviour {
         {
             npista += 1;
         }
+        PlayerPrefs.SetInt("pista", npista);
         PistaActualizar();
     }
 }

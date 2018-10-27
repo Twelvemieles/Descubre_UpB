@@ -8,6 +8,8 @@ public class Master : MonoBehaviour {
     public static bool survival;
     public static bool topos;
     public static bool tiro;
+    public static bool viento;
+    public static bool test;
 
     // Use this for initialization
     void Start () {

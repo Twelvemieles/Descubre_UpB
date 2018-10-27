@@ -38,7 +38,8 @@ public class BallPaper : MonoBehaviour {
         {
             actualizadorTiempo.gameOver = true;
             manager.EndState();
-           gameObject.GetComponent<Rigidbody>().isKinematic = true;
+            PlayerPrefs.SetInt("pista", (PlayerPrefs.GetInt("pista") + 1));
+            gameObject.GetComponent<Rigidbody>().isKinematic = true;
        
 
 

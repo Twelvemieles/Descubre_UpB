@@ -16,10 +16,14 @@ public class Mananger : MonoBehaviour {
     public Text finalScoreText, scoreText, cronoText;
     [SerializeField]
     private GameObject colisionparticle;
+
     [SerializeField]
+
     private float crono, cronof;
     public bool gameOver = false , muyCerca = false;
     public float distance;
+
+    
     
 	// Use this for initialization
 	void Start () {
@@ -72,6 +76,9 @@ public class Mananger : MonoBehaviour {
                 if (i == dianas.Length - 1)
                 {
                     gameOver = true;
+                    PlayerPrefs.SetInt("pista", (PlayerPrefs.GetInt("pista") + 1));
+                    print("se acabo");
+
                 }
             }
         }

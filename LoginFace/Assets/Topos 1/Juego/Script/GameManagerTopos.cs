@@ -12,28 +12,26 @@ public class GameManagerTopos : MonoBehaviour {
     private Text tiempoText;
     [SerializeField]
     private Text finalScore;
-    [SerializeField]
-    private Text highScore;
-    private int highscore;
 
     public bool noMasMonedas;
 
     private int scoreCoins;
 
-    private float tiempo = 40;
+    private float tiempo = 4;
 
     private AudioSource auds;
 
     [SerializeField]
     public GameObject win;
     public GameObject touch;
-    public GameObject touch2;
 
     private RaycastHit hit;
     private Ray ray;
 
     Vector3 worldPos;
     Vector2 wantedScreenSpawnPos;
+
+    
 
     public static GameManagerTopos Instance { set; get; }
 
@@ -69,9 +67,6 @@ public class GameManagerTopos : MonoBehaviour {
                     touch.SetActive(true);
                     touch.GetComponentInChildren<Animator>().Play("Bounce");
 
-                    touch2.transform.position = hit.point + new Vector3(0, 0.01f, 0);
-                    touch2.SetActive(true);
-                    touch2.GetComponentInChildren<Animator>().Play("Bounce");
                 }
             }
         }
@@ -84,21 +79,13 @@ public class GameManagerTopos : MonoBehaviour {
 
         if(tiempo <= 0)
         {
+            win.SetActive(true);
             Time.timeScale = 0;
             tiempo = 0;
-            win.SetActive(true);
             finalScore.text = "Puntaje Final: " + scoreCoins.ToString("0");
+            //actualizacion pista
+            PlayerPrefs.SetInt("pista", (PlayerPrefs.GetInt("pista") + 1));
 
-            highscore = PlayerPrefs.GetInt("highscore");
-            highScore.text = "Maximo Puntaje: " + highscore.ToString("0");
-
-            if (scoreCoins > highscore)
-            {
-                highscore = scoreCoins;
-                highScore.text = "Maximo Puntaje: " + highscore.ToString("0");
-
-                PlayerPrefs.SetInt("highscore", highscore);
-            }
         }
     }
     public void GetCoin()

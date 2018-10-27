@@ -13,12 +13,16 @@ public class GuiScores : MonoBehaviour {
     [SerializeField] private GameObject Win;
     [SerializeField] private GameObject Lose;
 
+    
+
     public void SumarPlayer()
     {
         scorePlayer++;
         if(scorePlayer >= 7)
         {
+            PlayerPrefs.SetInt("pista", (PlayerPrefs.GetInt("pista") + 1));
             Win.SetActive(true);
+
         }
     }
 

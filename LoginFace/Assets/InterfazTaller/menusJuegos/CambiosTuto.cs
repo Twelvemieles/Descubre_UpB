@@ -23,4 +23,10 @@ public class CambiosTuto : MonoBehaviour
     {
         SceneManager.LoadScene("Scene1"); ;
     }
+
+    public void Viento()
+    {
+        SceneManager.LoadScene("escena1");
+
+    }
 }

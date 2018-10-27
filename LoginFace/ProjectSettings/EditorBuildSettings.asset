@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/InterfazTaller/menusJuegos/Menus.unity
     guid: d474906c93336467e9a769dad105e17b
+  - enabled: 1
+    path: Assets/PaperAir/Assets/VainasDeMieles/Scenes/escena1.unity
+    guid: 01ca3bab96ec74c93a99dac2e95c7f10
   m_configObjects: {}

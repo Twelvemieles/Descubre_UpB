@@ -9,6 +9,8 @@ public class GameManagerSurvival : MonoBehaviour {
     [SerializeField]
     private GameObject lose;
     [SerializeField]
+    private GameObject win;
+    [SerializeField]
     private Text score;
     [SerializeField]
     private Text Highscore;
@@ -18,11 +20,17 @@ public class GameManagerSurvival : MonoBehaviour {
     private Text finalScore;
     [SerializeField]
     private Text tiempoFinal;
+    [SerializeField]
+    private Text tiempoFinal2;
+    [SerializeField]
+    private Text finalScore2;
 
     private int scoreCoins;
     private int highscore;
     private float tiempo = 0;
     private bool muerto;
+
+    
 
     public static GameManagerSurvival Instance { set; get; }
 
@@ -41,6 +49,11 @@ public class GameManagerSurvival : MonoBehaviour {
         }
 
         tiempoText.text = tiempo.ToString("0");
+
+        if(scoreCoins >= 20)
+        {
+            Win();
+        }
     }
 
     public void GetCoin()
@@ -67,6 +80,15 @@ public class GameManagerSurvival : MonoBehaviour {
             PlayerPrefs.SetInt("highscore", highscore);
         }
 
+    }
+
+    public void Win()
+    {
+        tiempoFinal2.text = "Tiempo: " + tiempo.ToString("0");
+        finalScore2.text = "Puntaje final: " + (45/ tiempo).ToString("");
+        Time.timeScale = 0;
+        win.SetActive(true);
+        PlayerPrefs.SetInt("pista", (PlayerPrefs.GetInt("pista") + 1));
     }
 
     public void Resetiar()
