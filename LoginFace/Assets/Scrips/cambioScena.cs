@@ -5,12 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class cambioScena : MonoBehaviour
 {
-    bool activar;
-    public GameObject mapa;
+   
 
-	public void Habilitar()
+
+    public void Menu()
     {
-        mapa.SetActive(true);
-
+        SceneManager.LoadScene("Inicio");
     }
+
+
 }

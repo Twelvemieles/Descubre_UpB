@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/JUANDAVID/Desktop/UPB/DescubreUPB/version19.apk
+C:/Users/Asus/Documents/Taller 7/Github/Descubre_UpB/APK/Apkgit5.apk
 SceneListBegin?
 Assets/Scenes/Login.unity
 Assets/InterfazTaller/Scenes/Inicio.unity
@@ -9,6 +9,7 @@ Assets/Hockey/Hockey.unity
 Assets/Survival/Survival.unity
 Assets/Scenes/Scene1.unity
 Assets/InterfazTaller/menusJuegos/Menus.unity
+Assets/PaperAir/Assets/VainasDeMieles/Scenes/escena1.unity
 SceneListEnd?
 ffa61427343badaa224475396ef2aeab Assembly-CSharp.dll:.particleDie
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.CambiosTuto
@@ -71,6 +72,7 @@ e80ee80f9aaeaab47eea41417cc69c93 Assembly-CSharp.dll:.GuiScores
 50b0b141074b216c8b53b1bd467f73c9 Unity.TextMeshPro.dll:TMPro.TMP_InputField
 b827b25f832158fdaa480c476121350e Assembly-CSharp.dll:UnityStandardAssets.CrossPlatformInput.TiltInput
 c42bdd561f3ef5ec31cac3c2328b3aba Assembly-CSharp.dll:.timeNet
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.DefaultInitializationErrorHandler
 53cefe5d98cadefbab750835e70b89c0 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 486cd95c82d8305219c352c06b776e1f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 da2091a04d360891450faf16cdf621f1 UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -234,9 +236,10 @@ c31ff9acb65f7a15b5c6fd77c3314d83 Vuforia.UnityExtensions.dll:Vuforia.WireframeBe
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:Facebook.Unity.Example.LogView
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.screenRot
 60e3a31993bab65e1efb2350a900d178 Assembly-CSharp.dll:UnityStandardAssets.CrossPlatformInput.InputAxisScrollbar
-143050dbc51c752eaee9679b4a04ed98 Assembly-CSharp.dll:.cambioScena
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.cambioScena
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:Facebook.Unity.Example.ConsoleBase
 2c7e6666ff54b0db8b35a5d74102118c Assembly-CSharp.dll:UnityStandardAssets.CrossPlatformInput.AxisTouchButton
+6725bc470dca5c45c92168b1c6eb5e63 Assembly-CSharp.dll:.ControlPreguntas
 f16835701e71dd5d6fb1fed4b7aff1d8 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 2f5a31b5c5621442b1584d497326ace0 Assembly-CSharp.dll:.DisparoCam
 d947b95c171314b81b313a2f4ffd0411 Assembly-CSharp.dll:UnityStandardAssets.CrossPlatformInput.ButtonHandler
@@ -293,7 +296,6 @@ fc061f3ae8a876c0687e86378d4a447c UnityEngine.Networking.dll:UnityEngine.Networki
 7ca56e063bd071986fff4f513cc4f477 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 d28578e98a6ae48d33d593052d12c700 Assembly-CSharp.dll:.CullArea
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.detectedSurvival
-486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.DefaultInitializationErrorHandler
 8ab4af8f03ac82cb83b49f9fef4e63e4 Assembly-CSharp.dll:.EffectController
 486cd95c82d8305219c352c06b776e1f Facebook.Unity.dll:Facebook.Unity.Mobile.Android.AndroidFacebookGameObject
 486cd95c82d8305219c352c06b776e1f Facebook.Unity.dll:Facebook.Unity.Mobile.Android.AndroidFacebookLoader
@@ -310,7 +312,7 @@ d28578e98a6ae48d33d593052d12c700 Assembly-CSharp.dll:.CullArea
 486cd95c82d8305219c352c06b776e1f Facebook.Unity.dll:Facebook.Unity.Canvas.JsBridge
 486cd95c82d8305219c352c06b776e1f Facebook.Unity.dll:Facebook.Unity.Editor.Dialogs.MockLoginDialog
 486cd95c82d8305219c352c06b776e1f Facebook.Unity.dll:Facebook.Unity.Editor.Dialogs.MockShareDialog
-df58bebff3a6a87864583b707ccd564a Assembly-CSharp.dll:.TestPhoton
+603ff55f15d3255ea3bd520003fbecf5 Assembly-CSharp.dll:.TestPhoton
 72a8523b432c0a5317826b7a9e0a0e79 Unity.TextMeshPro.dll:TMPro.PackageResourceImporterWindow
 e53cc67d84060d628c7f03fc725766d8 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 392c5b921098bd4c139d9146d0efa6d7 Unity.TextMeshPro.dll:TMPro.TMP_Settings
@@ -333,11 +335,11 @@ dfd33ff9ae3ce8d7ca1f22b475ec2387 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 aac9c55ae7ba4b95b852a7d9c191acd1 Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.CameraFocusControllerHockey
 b46b4a890c5b144bacd4736ada5ccf42 Assembly-CSharp.dll:.CheckScene
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.DefaultTrackableEventHandler
 fd1e15b01c6e8d9c3c753ad322216267 Assembly-CSharp.dll:.PhotonLagSimulationGui
 0a006f3734181ba8b26758f0866152c0 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.rotObj
 2d5613dfea5ebe89d441816537142920 Assembly-CSharp.dll:UnityStandardAssets.CrossPlatformInput.TouchPad
-486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.DefaultTrackableEventHandler
 811f0586e9f0c3a6f2667f8d487ea516 Assembly-CSharp.dll:.TimedSpawn
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:Facebook.Unity.Example.AppInvites
 e04611b8715e6833d2bd7010fc6be10b Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
@@ -387,7 +389,7 @@ c8a41ce4eea7677f6dd2aa0e422a2f04 Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehav
 c31ff9acb65f7a15b5c6fd77c3314d83 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 486cd95c82d8305219c352c06b776e1f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:Facebook.Unity.Example.AppRequests
-6ea19ebfe346629964cfd745d5fa0312 Assembly-CSharp.dll:.GameManagerTopos
+0711e008184227d3a4647196647f946a Assembly-CSharp.dll:.GameManagerTopos
 182e416670915c50a548c38c642db0d8 Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 f35860350df72508419d9f9fcd288594 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour
 182e416670915c50a548c38c642db0d8 Vuforia.UnityExtensions.dll:Vuforia.AnchorStageBehaviour
@@ -421,4 +423,4 @@ aa5e3523afd7fd907d3f99da4b777fdc Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 c8a41ce4eea7677f6dd2aa0e422a2f04 Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 c31ff9acb65f7a15b5c6fd77c3314d83 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 486cd95c82d8305219c352c06b776e1f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
-b03f86c17efec07978374b593663d086 Assembly-CSharp.dll:.GameManagerSurvival
+c85ae68a63b3860b6323ef4ecf83555a Assembly-CSharp.dll:.GameManagerSurvival

@@ -17,7 +17,7 @@ public class GameManagerTopos : MonoBehaviour {
 
     private int scoreCoins;
 
-    private float tiempo = 4;
+    private float tiempo = 45;
 
     private AudioSource auds;
 
