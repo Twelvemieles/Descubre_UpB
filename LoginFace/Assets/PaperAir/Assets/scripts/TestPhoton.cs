@@ -5,10 +5,11 @@ using UnityEngine.UI;
 
 public class TestPhoton : MonoBehaviour {
 
-    public Text timeText;
+    public Text timeText, Starstext;
 
+    int Stars;
     public GameObject[] jugadores;
-    public float tiempo = 0;
+    public float tiempo = 0, timeToEnd;
     public bool gameOver = false;
    
     // Use this for initialization
@@ -27,6 +28,7 @@ public class TestPhoton : MonoBehaviour {
             tiempo = ObtenerTiempo(jugadores);
            
         }
+      
       
 
        
@@ -60,8 +62,24 @@ public class TestPhoton : MonoBehaviour {
             }
         }
         var total = sum / realPlayers;
- 
+        for (int i = 0; i < jugadores.Length; i++)
+        {
+            if (jugadores[i] != null)
+            {
+                jugadores[i].GetComponent<ManangerAir>().time = total;
+            }
+        }
         return total;
+    }
+    public void GameEnd()
+    {
+        if (tiempo > timeToEnd + ((timeToEnd * 1) / 4)) Stars = 0;
+        if (tiempo < timeToEnd + ((timeToEnd * 1) / 4)) Stars = 1;
+        if (tiempo < timeToEnd ) Stars = 2;
+        if (tiempo < ((timeToEnd * 3)/4)) Stars = 3;
+
+        Starstext.text = "Stars: " + Stars;
+         gameOver = true;
     }
 
 }

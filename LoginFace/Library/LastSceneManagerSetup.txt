@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/InterfazTaller/menusJuegos/Menus.unity
+- path: Assets/PaperAir/Assets/VainasDeMieles/Scenes/escena1.unity
   isLoaded: 1
   isActive: 1

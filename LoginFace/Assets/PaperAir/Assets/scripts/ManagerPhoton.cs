@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class ManagerPhoton : Photon.MonoBehaviour
 {
     [SerializeField] private Text connectText;
+  
     [SerializeField] private GameObject player;
     [SerializeField] private Transform spawnPoint;
      private ManagerColores managerColores;
@@ -55,6 +56,7 @@ public class ManagerPhoton : Photon.MonoBehaviour
     public void EndState()
     {
         endStateCanvas.SetActive(true);
+
     
     }
     public void Reiniciate()

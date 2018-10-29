@@ -36,7 +36,7 @@ public class BallPaper : MonoBehaviour {
     {
         if (other.transform.tag == "Meta")
         {
-            actualizadorTiempo.gameOver = true;
+            actualizadorTiempo.GameEnd();
             manager.EndState();
             PlayerPrefs.SetInt("pista", (PlayerPrefs.GetInt("pista") + 1));
             gameObject.GetComponent<Rigidbody>().isKinematic = true;
