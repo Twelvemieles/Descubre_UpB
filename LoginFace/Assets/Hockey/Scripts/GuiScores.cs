@@ -7,6 +7,8 @@ using UnityEngine.UI;
 public class GuiScores : MonoBehaviour {
     [SerializeField] private Text scorePlayerTxt;
     [SerializeField] private Text scoreAiTxt;
+    [SerializeField] private Text estrellas;
+
     private int scorePlayer;
     private int scoreAi;
 
@@ -21,8 +23,19 @@ public class GuiScores : MonoBehaviour {
         if(scorePlayer >= 7)
         {
             PlayerPrefs.SetInt("pista", (PlayerPrefs.GetInt("pista") + 1));
+            if(scoreAi <= 2)
+            {
+                estrellas.text = "Estrellas: 3";
+            }
+            if (scoreAi > 2 && scoreAi <= 5)
+            {
+                estrellas.text = "Estrellas: 2";
+            }
+            if (scoreAi > 5)
+            {
+                estrellas.text = "Estrellas: 1";
+            }
             Win.SetActive(true);
-
         }
     }
 

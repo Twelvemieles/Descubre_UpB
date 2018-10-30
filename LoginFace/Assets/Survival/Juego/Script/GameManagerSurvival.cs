@@ -13,17 +13,13 @@ public class GameManagerSurvival : MonoBehaviour {
     [SerializeField]
     private Text score;
     [SerializeField]
-    private Text Highscore;
-    [SerializeField]
     private Text tiempoText;
-    [SerializeField]
-    private Text finalScore;
     [SerializeField]
     private Text tiempoFinal;
     [SerializeField]
     private Text tiempoFinal2;
     [SerializeField]
-    private Text finalScore2;
+    private Text estrellas;
 
     private int scoreCoins;
     private int highscore;
@@ -66,26 +62,25 @@ public class GameManagerSurvival : MonoBehaviour {
     {
         muerto = true;
         lose.SetActive(true);
-        finalScore.text = "Puntaje final: " + scoreCoins.ToString("0");
         tiempoFinal.text = "Tiempo: " + tiempo.ToString("0");
-
-        highscore = PlayerPrefs.GetInt("highscore");
-        Highscore.text = "Maximo Puntaje: " + highscore.ToString("0");
-
-        if (scoreCoins > highscore)
-        {
-            highscore = scoreCoins;
-            Highscore.text = "Maximo Puntaje: " + highscore.ToString("0");
-
-            PlayerPrefs.SetInt("highscore", highscore);
-        }
-
     }
 
     public void Win()
     {
         tiempoFinal2.text = "Tiempo: " + tiempo.ToString("0");
-        finalScore2.text = "Puntaje final: " + (45/ tiempo).ToString("");
+        if(tiempo <= 50)
+        {
+            estrellas.text = "Estrellas: 3";
+        }
+        if (tiempo > 50 && tiempo <= 80)
+        {
+            estrellas.text = "Estrellas: 2";
+        }
+        if (tiempo > 80)
+        {
+            estrellas.text = "Estrellas: 1";
+        }
+
         Time.timeScale = 0;
         win.SetActive(true);
         PlayerPrefs.SetInt("pista", (PlayerPrefs.GetInt("pista") + 1));

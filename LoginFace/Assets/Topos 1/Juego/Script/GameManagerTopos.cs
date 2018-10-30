@@ -82,7 +82,18 @@ public class GameManagerTopos : MonoBehaviour {
             win.SetActive(true);
             Time.timeScale = 0;
             tiempo = 0;
-            finalScore.text = "Puntaje Final: " + scoreCoins.ToString("0");
+            if(scoreCoins > 40)
+            {
+                finalScore.text = "Estrellas: 3";
+            }
+            if (scoreCoins > 20 && scoreCoins <= 40)
+            {
+                finalScore.text = "Estrellas: 2";
+            }
+            if (scoreCoins <= 20)
+            {
+                finalScore.text = "Estrellas: 1";
+            }
             //actualizacion pista
             PlayerPrefs.SetInt("pista", (PlayerPrefs.GetInt("pista") + 1));
 
