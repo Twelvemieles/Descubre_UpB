@@ -67,7 +67,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
                     PlayerPrefs.SetInt("vuforiaS", 5);
                     SceneManager.LoadScene("Menus");
 
-
                    // SceneManager.LoadScene("Hockey");
 
                 }
@@ -111,8 +110,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
                         Master.viento = true;
                         PlayerPrefs.SetInt("vuforiaS", 1);
                         SceneManager.LoadScene("Menus");
-
-
                     }
                     if (Master.test == false)
                     {
@@ -120,11 +117,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
                         {
                             SceneManager.LoadScene("Preguntas");
                             PlayerPrefs.SetInt("pregunta", 1);
-
-
-
-
-
                         }
 
 

@@ -3,14 +3,29 @@ using System.Collections;
 
 public class rotObjMapa : MonoBehaviour
 {
-    float rotSpeed = 150;
+    private bool derecha;
+    private bool izquierda;
 
-    void OnMouseDrag()
+    public void Update()
     {
-        float rotX = Input.GetAxis("Mouse X") * rotSpeed * Mathf.Deg2Rad;
-        float rotY = Input.GetAxis("Mouse Y") * rotSpeed * Mathf.Deg2Rad;
+        if(derecha == true)
+        {
+            transform.Rotate(Vector3.up * Time.deltaTime * 50);
+        }
 
-        transform.Rotate(Vector3.up, -rotX);
-        transform.Rotate(Vector3.right, rotY);
+        if (izquierda == true)
+        {
+            transform.Rotate(Vector3.down * Time.deltaTime * 50);
+        }
+    }
+
+    public void CambiarDerecha()
+    {
+        derecha = !derecha;
+    }
+
+    public void CambiarIzquierda()
+    {
+        izquierda = !izquierda;
     }
 }
