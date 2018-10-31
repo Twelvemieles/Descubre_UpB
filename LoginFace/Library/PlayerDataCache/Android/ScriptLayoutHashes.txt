@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/Asus/Documents/Taller 7/Github/Descubre_UpB/APK/Apkgit5.apk
+/Users/juandiegomieles/Documents/UnityProyects/apks/UPBGame.apk
 SceneListBegin?
 Assets/Scenes/Login.unity
 Assets/InterfazTaller/Scenes/Inicio.unity
@@ -68,7 +68,7 @@ a44114bd4fa541174f78b4bb92bacb48 UnityEngine.UI.dll:UnityEngine.EventSystems.Sta
 e90403eeda069970e0b9de1533de13a6 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 2d58ca16854b99daea8c45e9c0f367b7 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 16da51d1b62ef6d4ee1849350434023b UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
-e80ee80f9aaeaab47eea41417cc69c93 Assembly-CSharp.dll:.GuiScores
+d42eedf30215a08a7109dc86d29d7778 Assembly-CSharp.dll:.GuiScores
 50b0b141074b216c8b53b1bd467f73c9 Unity.TextMeshPro.dll:TMPro.TMP_InputField
 b827b25f832158fdaa480c476121350e Assembly-CSharp.dll:UnityStandardAssets.CrossPlatformInput.TiltInput
 c42bdd561f3ef5ec31cac3c2328b3aba Assembly-CSharp.dll:.timeNet
@@ -423,4 +423,4 @@ aa5e3523afd7fd907d3f99da4b777fdc Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 c8a41ce4eea7677f6dd2aa0e422a2f04 Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 c31ff9acb65f7a15b5c6fd77c3314d83 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 486cd95c82d8305219c352c06b776e1f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
-c85ae68a63b3860b6323ef4ecf83555a Assembly-CSharp.dll:.GameManagerSurvival
+f20e67cd6c1cf3f6b9bb4f18152ea04c Assembly-CSharp.dll:.GameManagerSurvival
