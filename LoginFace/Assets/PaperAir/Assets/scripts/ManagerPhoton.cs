@@ -11,6 +11,7 @@ public class ManagerPhoton : Photon.MonoBehaviour
     [SerializeField] private GameObject player;
     [SerializeField] private Transform spawnPoint;
      private ManagerColores managerColores;
+    public GameObject Camerita;
 
    
 
@@ -33,19 +34,22 @@ public class ManagerPhoton : Photon.MonoBehaviour
       
 
     }
-    public virtual void OnJoinedRoom()
+    public void CreatePlayer()
     {
+        Camerita.SetActive(false);
         //spáwn the player
         PhotonNetwork.Instantiate(player.name, spawnPoint.position, spawnPoint.rotation,0);
         //Deactivate the loby
         player.SetActive(true);
+       
+
     }
 
     public virtual void OnCreatedRoom()
     {
         managerColores.master = true;
         managerColores.changeColour();
-      
+
     }
 
 

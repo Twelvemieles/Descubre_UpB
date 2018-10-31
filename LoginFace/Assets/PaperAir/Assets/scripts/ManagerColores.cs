@@ -49,18 +49,22 @@ public class ManagerColores : MonoBehaviour {
         managerColour = Random.Range(0, managerColourCount);
         for (int i = 0; i <= managerColourCount - 1; i++)
         {
-            if (i == managerColour)
+            if (jugadores[i] != null)
             {
+                if (i == managerColour)
+                {
 
-                var view = jugadores[i].GetComponent<PhotonView>();
-                view.RPC("Turnear", view.owner, true);
+                    var view = jugadores[i].GetComponent<PhotonView>();
+                    view.RPC("Turnear", view.owner, true);
+                }
+                else
+                {
+                    var view = jugadores[i].GetComponent<PhotonView>();
+                    view.RPC("Turnear", view.owner, false);
+                }
             }
-            else
-            {
-                var view = jugadores[i].GetComponent<PhotonView>();
-                view.RPC("Turnear", view.owner, false);
-            }
-
+          
+      
         }
 
 
