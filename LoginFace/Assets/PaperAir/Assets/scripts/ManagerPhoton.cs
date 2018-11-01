@@ -21,6 +21,7 @@ public class ManagerPhoton : Photon.MonoBehaviour
 
     private void Start()
     {
+        Camerita.tag = "Untagged";
         managerColores = gameObject.GetComponent<ManagerColores>();
         endStateCanvas.gameObject.SetActive(false);
         PhotonNetwork.ConnectUsingSettings("1");

@@ -46,30 +46,37 @@ public class TestPhoton : MonoBehaviour {
     {
        
         float sum = 0, realPlayers = 0;
-       
-        for (int i = 0; i < jugadores.Length ; i++)
+        if(jugadores.Length != 0)
         {
-            
-            if (jugadores[i] != null)
+            for (int i = 0; i < jugadores.Length; i++)
             {
 
-                float t2 = jugadores[i].GetComponent<ManangerAir>().time;
-             
-                sum = t2 + sum;
+                if (jugadores[i] != null)
+                {
 
-                realPlayers++;
+                    float t2 = jugadores[i].GetComponent<ManangerAir>().time;
 
+                    sum = t2 + sum;
+
+                    realPlayers++;
+
+                }
             }
-        }
-        var total = sum / realPlayers;
-        for (int i = 0; i < jugadores.Length; i++)
-        {
-            if (jugadores[i] != null)
+            var total = sum / realPlayers;
+            for (int i = 0; i < jugadores.Length; i++)
             {
-                jugadores[i].GetComponent<ManangerAir>().time = total;
+                if (jugadores[i] != null)
+                {
+                    jugadores[i].GetComponent<ManangerAir>().time = total;
+                }
             }
+            return total;
         }
-        return total;
+        else{
+            return 0;
+        }
+        
+
     }
     public void GameEnd()
     {
