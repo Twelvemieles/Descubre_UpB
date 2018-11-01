@@ -61,7 +61,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             OnTrackingFound();
             if(Master.hockey == false)
             {
-                if (mTrackableBehaviour.TrackableName == "5")
+                if (mTrackableBehaviour.TrackableName == "targetsUPB5")
                 {
                     Master.hockey = true;
                     PlayerPrefs.SetInt("vuforiaS", 5);
@@ -73,7 +73,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             }
             if (Master.survival == false)
             {
-                if (mTrackableBehaviour.TrackableName == "4")
+                if (mTrackableBehaviour.TrackableName == "targetsUPB4")
                 {
                     Master.survival = true;
                     PlayerPrefs.SetInt("vuforiaS", 4);
@@ -83,7 +83,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             }
             if (Master.topos == false)
             {
-                if (mTrackableBehaviour.TrackableName == "3")
+                if (mTrackableBehaviour.TrackableName == "targetsUPB3")
                 {
                     Master.topos = true;
                     PlayerPrefs.SetInt("vuforiaS", 3);
@@ -94,7 +94,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             }
             if (Master.tiro == false)
             {
-                if (mTrackableBehaviour.TrackableName == "2")
+                if (mTrackableBehaviour.TrackableName == "targetsUPB2")
                 {
                     Master.tiro = true;
                     PlayerPrefs.SetInt("vuforiaS", 2);
@@ -105,7 +105,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
                 if(Master.viento == false)
                 {
-                    if(mTrackableBehaviour.TrackableName == "1")
+                    if(mTrackableBehaviour.TrackableName == "targetsUPB1")
                     {
                         Master.viento = true;
                         PlayerPrefs.SetInt("vuforiaS", 1);
@@ -113,7 +113,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
                     }
                     if (Master.test == false)
                     {
-                        if(mTrackableBehaviour.TrackableName == "6" )
+                        if(mTrackableBehaviour.TrackableName == "targetsUPB6")
                         {
                             SceneManager.LoadScene("Preguntas");
                             PlayerPrefs.SetInt("pregunta", 1);
