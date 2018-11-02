@@ -10,11 +10,11 @@
       <File FileName="Assets/scripts/detected.cs" Line="12" Column="6" />
       <File FileName="Assets/scripts/DisparoCam.cs" Line="21" Column="52" />
       <File FileName="Assets/PaperAir/Assets/scripts/BallPaper.cs" Line="39" Column="42" />
-      <File FileName="Assets/PaperAir/Assets/scripts/ManagerPhoton.cs" Line="39" Column="35" />
+      <File FileName="Assets/PaperAir/Assets/scripts/ManagerPhoton.cs" Line="24" Column="35" />
       <File FileName="Assets/PaperAir/Assets/Photon Unity Networking/Editor/PhotonNetwork/CullAreaEditor.cs" Line="10" Column="1" />
       <File FileName="Assets/PaperAir/Assets/scripts/ManagerColores.cs" Line="66" Column="11" />
       <File FileName="Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs" Line="19" Column="1" />
-      <File FileName="Assets/PaperAir/Assets/scripts/TestPhoton.cs" Line="76" Column="20" />
+      <File FileName="Assets/PaperAir/Assets/scripts/TestPhoton.cs" Line="27" Column="52" />
       <File FileName="Assets/PaperAir/Assets/scripts/ManangerAir.cs" Line="1" Column="1" />
       <File FileName="Assets/Topos 1/Juego/Script/Topos.cs" Line="1" Column="1" />
       <File FileName="Assets/PaperAir/Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonNetwork.cs" Line="2466" Column="2" />
