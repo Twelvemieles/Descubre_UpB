@@ -5,7 +5,7 @@ using Vuforia;
 
 public class MielesDetected : MonoBehaviour, ITrackableEventHandler
 {
-
+   
     private TrackableBehaviour mTrackableBehaviour;
 
     void Start()
@@ -34,4 +34,6 @@ public class MielesDetected : MonoBehaviour, ITrackableEventHandler
             Time.timeScale = 0;
         }
     }
+
+   
 }

@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/PaperAir/Assets/VainasDeMieles/Scenes/escena1.unity
     guid: 01ca3bab96ec74c93a99dac2e95c7f10
+  - enabled: 1
+    path: Assets/Scenes/TestVuforia.unity
+    guid: ee5ab77b88c184b148e4f9abe6a325ac
   m_configObjects: {}
