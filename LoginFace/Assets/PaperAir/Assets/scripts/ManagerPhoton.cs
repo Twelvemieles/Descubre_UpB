@@ -8,7 +8,7 @@ public class ManagerPhoton : Photon.MonoBehaviour
 {
     [SerializeField] private Text connectText;
   
-    [SerializeField] private GameObject player;
+    [SerializeField] private GameObject player, level,feikLevel;
     [SerializeField] private Transform spawnPoint;
      private ManagerColores managerColores;
     public GameObject Camerita;
@@ -33,16 +33,19 @@ public class ManagerPhoton : Photon.MonoBehaviour
         options.MaxPlayers = 4;
         PhotonNetwork.JoinOrCreateRoom("Room1", new RoomOptions(), null);
       
-
+         
     }
     public void CreatePlayer()
     {
+
         Camerita.SetActive(false);
+        feikLevel.SetActive(false);
         //spáwn the player
         PhotonNetwork.Instantiate(player.name, spawnPoint.position, spawnPoint.rotation,0);
         //Deactivate the loby
         player.SetActive(true);
-       
+
+        Instantiate(level, new Vector3(0, 0, 0), new Quaternion(0, 0, 0, 0));
 
     }
 

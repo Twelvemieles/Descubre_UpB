@@ -7,7 +7,7 @@ public class ManagerColores : MonoBehaviour {
     public int managerColourCount = 0;
     public int managerColour = 1;
 
-    public BallPaper paperBall;
+
     public float changeColourTime = 5f;
     public float elapsedTime = 0;
     public GameObject[] jugadores;
