@@ -38,7 +38,7 @@ public class ControlPistas : MonoBehaviour {
         pistat[18] = "Donde encontraras al padre rector.";
         pistat[19] = "Entrada 70.";
 
-        if(PlayerPrefs.GetInt("started") == 99)
+        if(PlayerPrefs.HasKey("pista"))
         {
             PistaActualizar();
         }
@@ -84,7 +84,6 @@ public class ControlPistas : MonoBehaviour {
         }
         PlayerPrefs.SetInt("pista", npista);
         PistaActualizar();
-        PlayerPrefs.SetInt("started", 99);
     }
 
     public void PistaActualizar()
