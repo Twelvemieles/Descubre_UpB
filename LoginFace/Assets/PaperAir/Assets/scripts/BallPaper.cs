@@ -18,8 +18,8 @@ public class BallPaper : MonoBehaviour {
         if (other.transform.tag == "Meta")
         {
             GameObject Master = FindWithTag("Logic");
-            actualizadorTiempo.GameEnd();
-            manager.EndState();
+            Master.getComponent<TestPhoton>().GameEnd();
+            Master.getComponent<ManangerPhoton>().EndState();
             PlayerPrefs.SetInt("pista", (PlayerPrefs.GetInt("pista") + 1));
             gameObject.GetComponent<Rigidbody>().isKinematic = true;
        
