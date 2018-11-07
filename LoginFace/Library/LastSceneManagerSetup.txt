@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/InterfazTaller/Scenes/Inicio.unity
+- path: Assets/InterfazTaller/menusJuegos/Menus.unity
   isLoaded: 1
   isActive: 1

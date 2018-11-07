@@ -46,7 +46,7 @@ public class CheckScene : MonoBehaviour {
         }
         if (scene == 5)
         {
-            ventilador.SetActive(true);
+            ventilador.SetActive(false);
             tiro.SetActive(false);
             conejos.SetActive(false);
             zombie.SetActive(false);
