@@ -413,7 +413,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1096850998682938}
   m_LocalRotation: {x: -0.042452093, y: -0, z: -0, w: 0.9990985}
-  m_LocalPosition: {x: -1.52, y: 1.1900005, z: 0.120002575}
+  m_LocalPosition: {x: -1.15, y: 1.1900005, z: 0.120002575}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4473367804760840}
@@ -529,7 +529,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1340854808820282}
   m_LocalRotation: {x: 0.22354974, y: 0.044007655, z: 0.6542574, w: 0.7211354}
-  m_LocalPosition: {x: -2.3, y: -0, z: 2.2}
+  m_LocalPosition: {x: -2.03, y: -0.01, z: 2.09}
   m_LocalScale: {x: 0.081551604, y: 0.081551604, z: 0.081551604}
   m_Children: []
   m_Father: {fileID: 4509050513026220}
@@ -1460,7 +1460,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Tu Turno!
 
-    SOPLA'
+    PRESIONA'
 --- !u!182 &182721588104057382
 WindZone:
   m_ObjectHideFlags: 1
@@ -1660,7 +1660,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 1, g: 1, b: 1, a: 0.6431373}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}

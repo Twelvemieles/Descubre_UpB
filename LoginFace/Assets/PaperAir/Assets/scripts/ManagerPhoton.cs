@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class ManagerPhoton : Photon.MonoBehaviour
 {
-    [SerializeField] private Text connectText;
+    //[SerializeField] private Text connectText;
   
     [SerializeField] private GameObject player, level,feikLevel;
     [SerializeField] private Transform spawnPoint;
@@ -59,7 +59,7 @@ public class ManagerPhoton : Photon.MonoBehaviour
 
     private void Update()
     {
-        connectText.text = PhotonNetwork.connectionStateDetailed.ToString();
+       // connectText.text = PhotonNetwork.connectionStateDetailed.ToString();
     }
     public void EndState()
     {
