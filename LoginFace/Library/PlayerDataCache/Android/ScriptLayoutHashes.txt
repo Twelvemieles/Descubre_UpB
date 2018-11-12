@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-/Users/juandiegomieles/Documents/UnityProyects/apks/UPBGameV2.apk
+C:/Users/EQUIPO/Desktop/Descubre.apk
 SceneListBegin?
 Assets/Scenes/Login.unity
 Assets/InterfazTaller/Scenes/Inicio.unity
