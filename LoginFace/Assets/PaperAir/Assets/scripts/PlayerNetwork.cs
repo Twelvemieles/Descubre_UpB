@@ -8,6 +8,7 @@ public class PlayerNetwork : MonoBehaviour {
     [SerializeField] private Behaviour[] playerControlScripts;
     [SerializeField] private GameObject canvas;
 
+
     private PhotonView photonView;
     private VuforiaBehaviour vuforiaB;
    
@@ -24,6 +25,7 @@ public class PlayerNetwork : MonoBehaviour {
     {
         if (!photonView.isMine)
         {
+
             // playerCamera.enabled = false;
             canvas.SetActive(false);
           
@@ -31,6 +33,13 @@ public class PlayerNetwork : MonoBehaviour {
             {
                 m.enabled = false;
             }
+        }
+        else
+        {
+           // GameObject cam = GameObject.FindGameObjectWithTag("BorrameCam");
+            GameObject level = GameObject.FindGameObjectWithTag("BorrameLevel");
+            //cam.SetActive(false);
+            level.SetActive(false);
         }
     }
   
