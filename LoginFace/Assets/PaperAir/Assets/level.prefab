@@ -3494,8 +3494,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e776bec44eab9d349b9d043e37abc1c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameLogic: {fileID: 0}
-  colourBall: 0
 --- !u!135 &135646615613407126
 SphereCollider:
   m_ObjectHideFlags: 1

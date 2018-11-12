@@ -7,8 +7,8 @@ using UnityEngine.UI;
 public class ManagerPhoton : Photon.MonoBehaviour
 {
     //[SerializeField] private Text connectText;
-  
-    [SerializeField] private GameObject player, level,feikLevel;
+
+    [SerializeField] private GameObject player, level;
     [SerializeField] private Transform spawnPoint;
      private ManagerColores managerColores;
     public GameObject Camerita;
@@ -21,10 +21,11 @@ public class ManagerPhoton : Photon.MonoBehaviour
 
     private void Start()
     {
-        Camerita.tag = "Untagged";
+        Camerita.tag = "BorrameCam";
+       
         managerColores = gameObject.GetComponent<ManagerColores>();
         endStateCanvas.gameObject.SetActive(false);
-        PhotonNetwork.ConnectUsingSettings("1");
+       
     
     }
     public virtual void OnJoinedLobby()
@@ -32,20 +33,30 @@ public class ManagerPhoton : Photon.MonoBehaviour
         RoomOptions options = new RoomOptions();
         options.MaxPlayers = 4;
         PhotonNetwork.JoinOrCreateRoom("Room1", new RoomOptions(), null);
-      
-         
-    }
-    public void CreatePlayer()
-    {
 
-        Camerita.SetActive(false);
-        feikLevel.SetActive(false);
+
+
+
+    }
+    public virtual void OnJoinedRoom()
+    {
+        //
+        PhotonNetwork.Instantiate(player.name, spawnPoint.position, spawnPoint.rotation, 0);
+       // Camerita.SetActive(false);
+        //feikLevel.SetActive(false);
+        Instantiate(level, new Vector3(0, 0, 0), new Quaternion(0, 0, 0, 0));
         //spáwn the player
-        PhotonNetwork.Instantiate(player.name, spawnPoint.position, spawnPoint.rotation,0);
+
         //Deactivate the loby
         player.SetActive(true);
 
-        Instantiate(level, new Vector3(0, 0, 0), new Quaternion(0, 0, 0, 0));
+      
+
+    }
+    public void CreatePlayer()
+    {
+        PhotonNetwork.ConnectUsingSettings("1");
+     
 
     }
 
