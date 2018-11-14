@@ -112,7 +112,7 @@ public class Mananger : MonoBehaviour {
         if (dianas.Length == dianasTotal) Stars = 0;
         if (dianas.Length <= dianasTotal - 1) Stars = 1;
         if (dianas.Length <= dianasTotal / 2) Stars = 2;
-        finalScoreText.text = "Estrellas:" + Stars;
+        finalScoreText.text =  Stars.ToString();
         if (crono > ((cronof * 3)/ 4)) Stars = 3;
 
         PlayerPrefs.SetInt("pista", (PlayerPrefs.GetInt("pista") + 1));
