@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/Asus/Documents/Taller 7/Github/Descubre_UpB/APK/Apk2.apk
+C:/Users/Asus/Documents/Taller 7/Github/Descubre_UpB/APK/Apk3.apk
 SceneListBegin?
 Assets/Scenes/Login.unity
 Assets/InterfazTaller/Scenes/Inicio.unity
@@ -146,11 +146,11 @@ fc061f3ae8a876c0687e86378d4a447c UnityEngine.Networking.dll:UnityEngine.Networki
 7ca56e063bd071986fff4f513cc4f477 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 1f7830e0e5a33367ef54452d99ddd6d7 Assembly-CSharp.dll:.Mananger
 0a006f3734181ba8b26758f0866152c0 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+486cd95c82d8305219c352c06b776e1f VuforiaScripts.dll:.DefaultInitializationErrorHandler
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.CapsuleController
 37d183a23d00f249508c55d8dd96a0cc Assembly-CSharp.dll:.PhotonRigidbody2DView
 382b8ef512fa8d6108723a01b57af65b UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
 d22c788799ee45d8676254eccf20e8b8 UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
-486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.Master
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.BallPaper
 62970e1f682ed24796da6c2421d6f0e8 Assembly-CSharp.dll:.DeathTriggers
 d75dc834c5dec688db75a55a1724c90f UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
@@ -316,6 +316,7 @@ d28578e98a6ae48d33d593052d12c700 Assembly-CSharp.dll:.CullArea
 486cd95c82d8305219c352c06b776e1f Facebook.Unity.dll:Facebook.Unity.Editor.Dialogs.MockShareDialog
 603ff55f15d3255ea3bd520003fbecf5 Assembly-CSharp.dll:.TestPhoton
 72a8523b432c0a5317826b7a9e0a0e79 Unity.TextMeshPro.dll:TMPro.PackageResourceImporterWindow
+486cd95c82d8305219c352c06b776e1f VuforiaScripts.dll:.DefaultTrackableEventHandler
 7dd32d16d7548ab5f3933eed1bb37303 Assembly-CSharp.dll:.MIERDAAA
 e53cc67d84060d628c7f03fc725766d8 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 392c5b921098bd4c139d9146d0efa6d7 Unity.TextMeshPro.dll:TMPro.TMP_Settings
@@ -430,5 +431,5 @@ c8a41ce4eea7677f6dd2aa0e422a2f04 Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehav
 c31ff9acb65f7a15b5c6fd77c3314d83 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 486cd95c82d8305219c352c06b776e1f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 f20e67cd6c1cf3f6b9bb4f18152ea04c Assembly-CSharp.dll:.GameManagerSurvival
-486cd95c82d8305219c352c06b776e1f VuforiaScripts.dll:.DefaultTrackableEventHandler
-486cd95c82d8305219c352c06b776e1f VuforiaScripts.dll:.DefaultInitializationErrorHandler
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.Padre
+486cd95c82d8305219c352c06b776e1f VuforiaScripts.dll:.Master

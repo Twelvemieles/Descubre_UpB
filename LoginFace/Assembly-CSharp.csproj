@@ -85,8 +85,8 @@
     <Compile Include="Assets\InterfazTaller\ControlPistas.cs" />
     <Compile Include="Assets\InterfazTaller\menusJuegos\CambiosTuto.cs" />
     <Compile Include="Assets\InterfazTaller\menusJuegos\CheckScene.cs" />
-    <Compile Include="Assets\Master.cs" />
     <Compile Include="Assets\MIERDAAA.cs" />
+    <Compile Include="Assets\Padre.cs" />
     <Compile Include="Assets\PaperAir\Assets\deleteCamera.cs" />
     <Compile Include="Assets\PaperAir\Assets\Photon Unity Networking\Plugins\PhotonNetwork\CustomTypes.cs" />
     <Compile Include="Assets\PaperAir\Assets\Photon Unity Networking\Plugins\PhotonNetwork\Enums.cs" />

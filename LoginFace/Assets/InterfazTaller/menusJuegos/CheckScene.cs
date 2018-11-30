@@ -53,6 +53,8 @@ public class CheckScene : MonoBehaviour {
             hockey.SetActive(true);
         }
 
+
+
     }
 	
 	// Update is called once per frame
