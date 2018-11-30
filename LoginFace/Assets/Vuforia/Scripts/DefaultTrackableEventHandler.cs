@@ -7,13 +7,12 @@ Confidential and Proprietary - Protected under copyright and other laws.
 ==============================================================================*/
 
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using Vuforia;
 
 /// <summary>
 /// A custom handler that implements the ITrackableEventHandler interface.
-/// 
-/// Changes made to this file could be overwritten when upgrading the Vuforia version. 
+///
+/// Changes made to this file could be overwritten when upgrading the Vuforia version.
 /// When implementing custom event handler behavior, consider inheriting from this class instead.
 /// </summary>
 public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandler
@@ -21,8 +20,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     #region PROTECTED_MEMBER_VARIABLES
 
     protected TrackableBehaviour mTrackableBehaviour;
-
-    
+    protected TrackableBehaviour.Status m_PreviousStatus;
+    protected TrackableBehaviour.Status m_NewStatus;
 
     #endregion // PROTECTED_MEMBER_VARIABLES
 
@@ -53,81 +52,15 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         TrackableBehaviour.Status previousStatus,
         TrackableBehaviour.Status newStatus)
     {
+        m_PreviousStatus = previousStatus;
+        m_NewStatus = newStatus;
+
         if (newStatus == TrackableBehaviour.Status.DETECTED ||
             newStatus == TrackableBehaviour.Status.TRACKED ||
             newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED)
         {
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
             OnTrackingFound();
-            if(Master.hockey == false)
-            {
-                if (mTrackableBehaviour.TrackableName == "targetsUPB5")
-                {
-                    Master.hockey = true;
-                    PlayerPrefs.SetInt("vuforiaS", 5);
-                    SceneManager.LoadScene("Menus");
-
-                   // SceneManager.LoadScene("Hockey");
-
-                }
-            }
-            if (Master.survival == false)
-            {
-                if (mTrackableBehaviour.TrackableName == "targetsUPB4")
-                {
-                    Master.survival = true;
-                    PlayerPrefs.SetInt("vuforiaS", 4);
-                    SceneManager.LoadScene("Menus");
-                  //SceneManager.LoadScene("Survival");
-                }
-            }
-            if (Master.topos == false)
-            {
-                if (mTrackableBehaviour.TrackableName == "targetsUPB3")
-                {
-                    Master.topos = true;
-                    PlayerPrefs.SetInt("vuforiaS", 3);
-                    SceneManager.LoadScene("Menus");
-
-                 // SceneManager.LoadScene("Topos");
-                }
-            }
-            if (Master.tiro == false)
-            {
-                if (mTrackableBehaviour.TrackableName == "targetsUPB2")
-                {
-                    Master.tiro = true;
-                    PlayerPrefs.SetInt("vuforiaS", 2);
-                    SceneManager.LoadScene("Menus");
-
-                 // SceneManager.LoadScene("Scene1");
-                }
-
-                if(Master.viento == false)
-                {
-                    if(mTrackableBehaviour.TrackableName == "targetsUPB1")
-                    {
-                        Master.viento = true;
-                        PlayerPrefs.SetInt("vuforiaS", 1);
-                        SceneManager.LoadScene("Menus");
-                    }
-                    if (Master.test == false)
-                    {
-                        if(mTrackableBehaviour.TrackableName == "targetsUPB6")
-                        {
-                            SceneManager.LoadScene("Preguntas");
-                            PlayerPrefs.SetInt("pregunta", 1);
-                        }
-
-
-                    }
-
-                           
-
-                }
-
-            }
-
         }
         else if (previousStatus == TrackableBehaviour.Status.TRACKED &&
                  newStatus == TrackableBehaviour.Status.NO_POSE)

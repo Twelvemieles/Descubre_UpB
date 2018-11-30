@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class ControlPreguntas : MonoBehaviour {
 
     [SerializeField]
-    private GameObject[] pregu = new GameObject[5];
+    private GameObject[] pregu = new GameObject[10];
 
     [SerializeField]
     private GameObject correcto;
@@ -18,19 +18,39 @@ public class ControlPreguntas : MonoBehaviour {
 
     public void Start()
     {
-        int temp = PlayerPrefs.GetInt("pregunta");
-        Preguntas(temp);
+        if (PlayerPrefs.HasKey("pregunta"))
+        {
+            int temp = PlayerPrefs.GetInt("pregunta");
+            Preguntas(temp);
+        }
+        else
+        {
+            int temp = 0;
+            PlayerPrefs.SetInt("pregunta", temp);
+            Preguntas(temp);
+        }
+        
     }
 
 
     public void Preguntas(int x)
     {
+        if(x > 9)
+        {
+            int temp = 0;
+            PlayerPrefs.SetInt("pregunta", temp);
+            pregu[temp].SetActive(true);
+        }
         pregu[x].SetActive(true);
     }
     public void Correcto()
     {
         correcto.SetActive(true);
-        PlayerPrefs.SetInt("pista", (PlayerPrefs.GetInt("pista") + 1));
+        int temp1 = PlayerPrefs.GetInt("pregunta");
+        int temp2= PlayerPrefs.GetInt("pista");
+
+        PlayerPrefs.SetInt("pista", ( temp2 + 1));
+        PlayerPrefs.SetInt("pregunta", (temp1 + 1));
     }
     public void Incorrecto()
     {
