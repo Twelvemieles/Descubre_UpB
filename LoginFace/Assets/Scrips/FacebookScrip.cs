@@ -89,4 +89,9 @@ public class FacebookScrip : MonoBehaviour
           });
 
     }
+
+    public void Offline()
+    {
+        SceneManager.LoadScene("Inicio");
+    }
 }
