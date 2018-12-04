@@ -122,8 +122,10 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
                     {
                         if(mTrackableBehaviour.TrackableName == "targetsUPB6")
                         {
+                            Master.test = true;
+
                             SceneManager.LoadScene("Preguntas");
-                            PlayerPrefs.SetInt("pregunta", 1);
+                           // PlayerPrefs.SetInt("pregunta", 1);
                         }
 
 

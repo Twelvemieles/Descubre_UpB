@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestVuforia.unity
     guid: ee5ab77b88c184b148e4f9abe6a325ac
+  - enabled: 1
+    path: Assets/Preguntas/Preguntas.unity
+    guid: 983225bbe9295a7408d5078b2b70cf80
   m_configObjects: {}
