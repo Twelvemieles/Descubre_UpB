@@ -7,7 +7,7 @@ public class FollowPlayer : MonoBehaviour {
     private GameObject wayPoint;
     private Vector3 wayPointPos;
     private float speed = 1.0f;
-
+    public ParticleSystem destroyParticle;
 
     void Start()
     {
@@ -25,6 +25,7 @@ public class FollowPlayer : MonoBehaviour {
     {
         if(other.gameObject.tag == "Bullet")
         {
+            destroyParticle.Play();
             Destroy(this.gameObject);
             Destroy(other.gameObject);
             GameManagerSurvival.Instance.GetCoin();
