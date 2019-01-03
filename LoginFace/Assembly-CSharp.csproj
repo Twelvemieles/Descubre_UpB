@@ -202,6 +202,7 @@
     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
     <None Include="Assets\PaperAir\Assets\Photon Unity Networking\link.xml" />
     <None Include="Assets\Hockey\license_3rdpartynotice.txt" />
+    <None Include="Assets\Survival\Juego\Material\WaterTest 1.shader" />
     <None Include="Assets\PaperAir\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\PaperAir\Assets\Vuforia\Shaders\OutlineOpaque.shader" />
     <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
@@ -239,6 +240,7 @@
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
     <None Include="Assets\Hockey\Scripts\surface.shader" />
     <None Include="Assets\Survival\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Survival\Juego\Material\WaterTest.shader" />
     <None Include="Assets\PaperAir\Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Survival\Particlecollection_Free samples\Plugins\Effect\Shader\Toon Blended Premmultiply.shader" />
     <None Include="Assets\Topos 1\Juego\Prefabs\BrokenVector\FreeLowPolyPack\readme.txt" />

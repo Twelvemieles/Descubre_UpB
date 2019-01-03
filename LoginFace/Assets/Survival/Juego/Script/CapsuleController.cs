@@ -25,7 +25,7 @@ public class CapsuleController : MonoBehaviour {
 
         Vector3 movement = new Vector3(x, 0, y);
 
-        rb.velocity = movement * 2f;
+        rb.velocity = movement * 3f;
 
         if(x != 0 && y != 0)
         {

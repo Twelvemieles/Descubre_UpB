@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{2489C2D6-0488-2C22-DD42-A7D411CAB097}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Survival/Juego/Script/FollowPlayer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Survival/Juego/Material/WaterTest 1.shader">
     <Files>
       <File FileName="Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs" Line="67" Column="1" />
       <File FileName="Assets/InterfazTaller/menusJuegos/CheckScene.cs" Line="1" Column="1" />
@@ -7,8 +7,12 @@
       <File FileName="Assets/PaperAir/Assets/scripts/ManangerAir.cs" Line="112" Column="13" />
       <File FileName="Assets/PaperAir/Assets/scripts/PlayerNetwork.cs" Line="42" Column="15" />
       <File FileName="Assets/PaperAir/Assets/scripts/TestPhoton.cs" Line="57" Column="1" />
-      <File FileName="Assets/Survival/Juego/Script/BulletController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Survival/Juego/Script/BulletController.cs" Line="30" Column="6" />
       <File FileName="Assets/Survival/Juego/Script/FollowPlayer.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/DianaMove.cs" Line="1" Column="1" />
+      <File FileName="Assets/Survival/Juego/Script/CapsuleController.cs" Line="28" Column="35" />
+      <File FileName="Assets/Survival/Juego/Material/WaterTest.shader" Line="1" Column="1" />
+      <File FileName="Assets/Survival/Juego/Material/WaterTest 1.shader" Line="85" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
